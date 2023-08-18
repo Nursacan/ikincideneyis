@@ -1,0 +1,11 @@
+dictionary={'key':'value'}
+Sozluk={'RANDOM':'alakasız harflerin yan yana gelmesi ile bir gülme efektidir',
+       'EMOJI':'Kişinin duygu durum halini gösteren yüüzz ifadeleri veyaa sembollerdir mesela bayraklar'}
+word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+  
+if word in Sozluk():
+    print(Sozluk['RANDOM']) 
+else:
+    print('bir daha sorma')
+    #yazdım derste anlattığınıza göre 8.satırda hata yok
+    #buldum internetten eheh
